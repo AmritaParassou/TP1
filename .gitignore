@@ -4,11 +4,11 @@ public class pave {
    public static void main(String[]arg){
         Scanner scan = new Scanner(Pave.in);
         system.out.print("Afficher la longueur");
-        float L=scan.nextfloat();
+        float L=scan.nextFloat();
         system.out.print("Afficher la largeur");
-        float l=scan.nextfloat();
+        float l=scan.nextFloat();
         system.out.print("Afficher la Hauteur");
-        float h=scan.nextfloat();
+        float h=scan.nextFloat();
         system.out.print("Afficher le volume");
         float v=L*l*h
     system.out.prinln(v);
