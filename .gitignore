@@ -10,7 +10,7 @@ public class pave {
         System.out.print("Afficher la Hauteur");
         float h=scan.nextFloat();
         System.out.print("Afficher le volume");
-        float v=L*l*h
+        float v=L*l*h;
     System.out.prinln(v);
     }
   }  
