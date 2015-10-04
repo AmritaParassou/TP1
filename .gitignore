@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class pave {
    public static void main(String[]arg){
         Scanner scan = new Scanner(Pave.in);
-        system.out.print("Afficher la longueur");
+        System.out.print("Afficher la longueur");
         float L=scan.nextFloat();
-        system.out.print("Afficher la largeur");
+        System.out.print("Afficher la largeur");
         float l=scan.nextFloat();
-        system.out.print("Afficher la Hauteur");
+        System.out.print("Afficher la Hauteur");
         float h=scan.nextFloat();
-        system.out.print("Afficher le volume");
+        System.out.print("Afficher le volume");
         float v=L*l*h
-    system.out.prinln(v);
+    System.out.prinln(v);
     }
   }  
